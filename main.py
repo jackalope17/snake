@@ -45,7 +45,7 @@ class snake(object):
     self.dirny = 1
 
   def move(self):
-    for event in prgame.event.get()
+    for event in pygame.event.get()
       if event.type == pygame.QUIT:
         pygame.quit()
     keys = pygame.key.get_pressed()
